@@ -61,11 +61,6 @@ static void LoadFonts()
 int main( int argc, char *argv[] )
 {
 	//
-	// Initialize SDL to set up display mode and scale
-	//
-	SDL_Init(SDL_INIT_VIDEO);
-
-	//
 	// Create the Qt application
 	//
 	// For simplicity, the entire application and support objects are created here on the stack
